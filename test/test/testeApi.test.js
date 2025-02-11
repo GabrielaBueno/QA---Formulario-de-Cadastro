@@ -1,4 +1,3 @@
-// testeApi.test.js
 const request = require('supertest');
 const app = require('../server');
 describe('Testes da API de Usuários', () => {
@@ -6,12 +5,12 @@ describe('Testes da API de Usuários', () => {
 
   // Inicializa o servidor antes de todos os testes
   beforeAll(() => {
-    server = app.listen(3001); // Porta diferente para evitar o erro de conflito
+    server = app.listen(3001);
   });
 
   // Fecha o servidor após todos os testes
   afterAll(() => {
-    server.close(); // Garante que o servidor será fechado após os testes
+    server.close(); 
   });
 
   // Teste para o GET que retorna a lista de usuários
