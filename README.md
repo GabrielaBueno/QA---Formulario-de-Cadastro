@@ -69,5 +69,5 @@ node server/server.js
 ```
 http://127.0.0.1:8080
 ```
-## Autor
+## Autora
 Desenvolvido por **Gabriela Bueno**.
