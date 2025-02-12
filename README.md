@@ -54,7 +54,7 @@ k6 run tests/testePerformance.js
 ## Como Rodar o Projeto
 1. Clone este repositório:
 ```bash
-git clone https://github.com/GabrielaBueno/QA---Formulario-de-Cadastro.git
+git clone https://github.com/GabrielaBueno/QA-Formulario-de-Cadastro.git
 ```
 2. Instale o [Node.js](https://nodejs.org/) caso ainda não tenha instalado.
 3. Instale as dependências do projeto:
